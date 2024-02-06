@@ -80,7 +80,7 @@ const Hero = () => {
                   </div>
                   <a
                     href={
-                      "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
+                      "https://wa.me/919354529471?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
                       product.productName +
                       "*"
                     }
@@ -119,7 +119,7 @@ const Hero = () => {
                     </div>
                     <a
                       href={
-                        "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
+                        "https://wa.me/919354529471?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
                         product.productName +
                         "*"
                       }
@@ -158,7 +158,7 @@ const Hero = () => {
                     </div>
                     <a
                       href={
-                        "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
+                        "https://wa.me/919354529471?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
                         product.productName +
                         "*"
                       }
@@ -197,7 +197,7 @@ const Hero = () => {
                     </div>
                     <a
                       href={
-                        "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
+                        "https://wa.me/919354529471?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
                         product.productName +
                         "*"
                       }
