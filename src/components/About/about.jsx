@@ -1,74 +1,37 @@
-import React, { useState } from "react";
+// About.js
+
+import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <div class="container-about">
-        <div class="about-us">
-          <div
-            className="img"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            <img
-              style={{ width: "95%" }}
-              src="https://i0.wp.com/omjewellery.in/shop/wp-content/uploads/2023/06/Jewellery-Banner-Design-HD.png"
-              alt="Team Photo"
-            />
-          </div>{" "}
-          <div class="about-us-content" style={{ margin: "30px" }}>
-            <p>
-              Welcome to Jamudwip Jewellers, your premier destination for
-              exquisite and timeless jewelry in the heart of Mehsana. We take
-              pride in being a trusted name in the world of fine craftsmanship,
-              offering a curated collection that reflects elegance,
-              sophistication, and individuality.
-            </p>
+    <div className="container-about">
+      <div className="about-us">
+        <div className="img" style={{ textAlign: "center" }}>
+          <img
+            style={{ maxWidth: "100%", height: "auto" }}
+            src="https://4.imimg.com/data4/MF/CL/MY-13780903/pigeon-bird-nets.jpg"
+            alt="Team Photo"
+          />
+        </div>{" "}
+        <div className="about-us-content" style={{ margin: "30px", textAlign: "justify" }}>
+          {/* Saloni Bird Net & Spike Fitting Service Content */}
+          <h2>About Saloni Bird Net & Spike Fitting Service</h2>
+          <p>
+            Welcome to Saloni Bird Net & Spike Fitting Service, your trusted partner in effective bird control solutions. With a commitment to excellence and a passion for providing top-notch services, we have been serving the community for [X] years, making spaces safer and more hygienic.
+          </p>
 
-            <p>
-              At Jambudwip Jewellers, we believe that every piece of jewelry
-              tells a unique story, and we are dedicated to helping you find the
-              perfect piece to express your style and sentiments. Our jewelry is
-              crafted with precision and passion, showcasing the finest
-              materials and attention to detail.
-            </p>
+          <p>
+            Our mission is to create bird-free environments for our clients. We understand the nuisance and health risks associated with bird infestations, and we are dedicated to delivering innovative, humane, and sustainable solutions. Our goal is to protect your property while ensuring the well-being of our feathered friends.
+          </p>
 
-            <p>
-              <b> Quality Craftsmanship:</b> Each piece in our collection is
-              meticulously crafted by skilled artisans, combining traditional
-              techniques with modern design sensibilities. We strive for
-              perfection in every detail, ensuring that our jewelry stands the
-              test of time.
-            </p>
+          <p>
+            At Saloni Bird Net & Spike Fitting Service, customer satisfaction is our priority. We take pride in our prompt and reliable services, ensuring that your bird control needs are met with professionalism and efficiency. Our commitment to excellence has earned us a reputation for being a trusted partner in pest management.
+          </p>
 
-            <p>
-              <b> Timeless Elegance:</b> Whether you're looking for a classic
-              piece or a contemporary design, our collection spans a range of
-              styles to suit every taste. We believe in creating timeless pieces
-              that transcend trends, making them enduring symbols of beauty and
-              grace.
-            </p>
-
-            <p>
-              <b> Exquisite Materials:</b> We source only the finest materials,
-              from sparkling diamonds to lustrous pearls and precious gemstones.
-              Our commitment to quality ensures that every piece radiates with
-              brilliance and charm.
-            </p>
-            <p>
-              <b> Personalized Service:</b> Our knowledgeable and friendly staff
-              are here to assist you in finding the perfect piece for any
-              occasion. Whether you're celebrating a special milestone or
-              looking for a thoughtful gift, we are dedicated to providing a
-              personalized and enjoyable shopping experience.
-            </p>
-            <p>
-              Visit us at Jambudwip Jewellers and immerse yourself in a world of
-              elegance and luxury. Discover the perfect piece that resonates
-              with your unique style and celebrates life's special moments. We
-              look forward to being a part of your journey and helping you
-              create memories that last a lifetime.
-            </p>
-          </div>
+          <p>
+            Ready to make your property bird-free? Contact Saloni Bird Net & Spike Fitting Service today for a consultation. Let us work together to create a customized solution that meets your requirements and ensures a pest-free environment.
+          </p>
+          {/* End of Saloni Bird Net & Spike Fitting Service content */}
         </div>
       </div>
     </div>

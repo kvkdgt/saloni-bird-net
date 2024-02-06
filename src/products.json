@@ -2,76 +2,75 @@
   "products": [
     {
       "id": 1,
-      "category": "Gold",
-      "categorySlug": "gold",
-      "imageLink": "https://cdnmedia-breeze.vaibhavjewellers.com/media/catalog/product/image/98278209/vaibhav-jewellers-22k-casting-gold-stud-earrings-79vg5202-79vg5202.jpg",
-      "productName": "Gold ear-rings",
-      "price": 21000
+      "category": "Bird Net",
+      "categorySlug": "bird-net",
+      "imageLink": "https://m.media-amazon.com/images/I/51zwQsCGCdL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productName": "Bird Net",
+      "price": 1500
     },
     {
       "id": 2,
-      "category": "Silver",
-      "categorySlug": "silver",
-      "imageLink": "https://images-cdn.ubuy.co.in/6537d3c5980db363b2777e8c-chimoda-sterling-silver-rings-for-men.jpg",
-      "productName": "Silver Men's ring",
-      "price": 9000
+      "category": "Bird Spike",
+      "categorySlug": "bird-spike",
+      "imageLink": "https://m.media-amazon.com/images/I/518Ri-gRZ-L._SX300_SY300_QL70_FMwebp_.jpg",
+      "productName": "Bird Spike",
+      "price": 1200
     },
     {
       "id": 3,
-      "category": "Gold",
-      "categorySlug": "gold",
-      "imageLink": "https://cdnmedia-breeze.vaibhavjewellers.com/media/catalog/product/image/98278209/vaibhav-jewellers-22k-casting-gold-stud-earrings-79vg5202-79vg5202.jpg",
-      "productName": "Gold ear-rings",
-      "price": 21000
+      "category": "Invisible Grill",
+      "categorySlug": "invisible-grill",
+      "imageLink": "https://5.imimg.com/data5/SELLER/Default/2023/1/XG/NK/TM/2514987/invisible-grill-prabhat-engineering.JPG",
+      "productName": "Invisible Grill",
+      "price": 2500
     },
     {
       "id": 4,
-      "category": "Gold",
-      "categorySlug": "gold",
-      "imageLink": "https://cdnmedia-breeze.vaibhavjewellers.com/media/catalog/product/image/98278209/vaibhav-jewellers-22k-casting-gold-stud-earrings-79vg5202-79vg5202.jpg",
-      "productName": "Gold ear-rings",
-      "price": 21000
+      "category": "Bird Net",
+      "categorySlug": "bird-net",
+      "imageLink": "https://m.media-amazon.com/images/I/51zwQsCGCdL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productName": "Bird Net",
+      "price": 1500
     },
     {
       "id": 5,
-      "category": "Gold",
-      "categorySlug": "gold",
-      "imageLink": "https://cdnmedia-breeze.vaibhavjewellers.com/media/catalog/product/image/98278209/vaibhav-jewellers-22k-casting-gold-stud-earrings-79vg5202-79vg5202.jpg",
-      "productName": "Gold ear-rings",
-      "price": 21000
+      "category": "Bird Spike",
+      "categorySlug": "bird-spike",
+      "imageLink": "https://m.media-amazon.com/images/I/518Ri-gRZ-L._SX300_SY300_QL70_FMwebp_.jpg",
+      "productName": "Bird Spike",
+      "price": 1200
     },
     {
       "id": 6,
-      "category": "Silver",
-      "categorySlug": "silver",
-      "imageLink": "https://images-cdn.ubuy.co.in/6537d3c5980db363b2777e8c-chimoda-sterling-silver-rings-for-men.jpg",
-      "productName": "Silver Men's ring",
-      "price": 9000
+      "category": "Invisible Grill",
+      "categorySlug": "invisible-grill",
+      "imageLink": "https://5.imimg.com/data5/SELLER/Default/2023/1/XG/NK/TM/2514987/invisible-grill-prabhat-engineering.JPG",
+      "productName": "Invisible Grill",
+      "price": 2500
     },
     {
       "id": 7,
-      "category": "Silver",
-      "categorySlug": "silver",
-      "imageLink": "https://images-cdn.ubuy.co.in/6537d3c5980db363b2777e8c-chimoda-sterling-silver-rings-for-men.jpg",
-      "productName": "Silver Men's ring",
-      "price": 9000
+      "category": "Bird Net",
+      "categorySlug": "bird-net",
+      "imageLink": "https://m.media-amazon.com/images/I/51zwQsCGCdL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productName": "Bird Net",
+      "price": 1500
     },
     {
       "id": 8,
-      "category": "Silver",
-      "categorySlug": "silver",
-      "imageLink": "https://images-cdn.ubuy.co.in/6537d3c5980db363b2777e8c-chimoda-sterling-silver-rings-for-men.jpg",
-      "productName": "Silver Men's ring",
-      "price": 9000
+      "category": "Bird Spike",
+      "categorySlug": "bird-spike",
+      "imageLink": "https://m.media-amazon.com/images/I/518Ri-gRZ-L._SX300_SY300_QL70_FMwebp_.jpg",
+      "productName": "Bird Spike",
+      "price": 1200
     },
     {
       "id": 9,
-      "category": "Silver",
-      "categorySlug": "silver",
-      "imageLink": "https://images-cdn.ubuy.co.in/6537d3c5980db363b2777e8c-chimoda-sterling-silver-rings-for-men.jpg",
-      "productName": "Silver Men's ring",
-      "price": 9000
+      "category": "Invisible Grill",
+      "categorySlug": "invisible-grill",
+      "imageLink": "https://5.imimg.com/data5/SELLER/Default/2023/1/XG/NK/TM/2514987/invisible-grill-prabhat-engineering.JPG",
+      "productName": "Invisible Grill",
+      "price": 2500
     }
-   
   ]
 }

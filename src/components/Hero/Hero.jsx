@@ -30,13 +30,12 @@ const categories = [
   },
   {
     id: 4,
-    imgLink:
-      "https://dailybuyys.com/cdn/shop/products/inde78777_grande.jpg",
+    imgLink: "https://dailybuyys.com/cdn/shop/products/inde78777_grande.jpg",
     name: "All",
     categorySlug: "all",
     redirectLink: "#",
   },
- 
+
   // Add more objects as needed
 ];
 
@@ -97,73 +96,120 @@ const Hero = () => {
         </div>
 
         <div style={{}} className="category-header category-header-3">
-          <h2 style={{ fontWeight: 500 }}>Our Gold Collection</h2>
-          <Link to={"/product/bengali-sweets"}>
-            <span>View all</span>
-          </Link>
-        </div>
-        <div className="product-card-group">
-          {ProductData.products.filter((item) => item.categorySlug == 'gold').slice(0, 5).map((product) => {
-            return (
-              <div class="product-card">
-                <img src={product.imageLink} alt="Card 1" />
-                <div class="card-content">
-                  {/* <div className="product-card-category">{product.category}</di v> */}
-                  <div className="product-card-item">{product.productName}</div>
-                  <div className="product-card-price">
-                    Rs. {product.price}.00
-                  </div>
-                  <a
-                    href={
-                      "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
-                      product.productName +
-                      "*"
-                    }
-                    target="_blank"
-                  >
-                    {" "}
-                    <div className="product-card-button">Buy Now</div>
-                  </a>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
-        <div style={{}} className="category-header category-header-3">
-          <h2 style={{ fontWeight: 500 }}>Our silver collection</h2>
-          <Link to={"/product/namkeen"}>
+          <h2 style={{ fontWeight: 500 }}>Our Bird Net Collection</h2>
+          <Link to={"/product/bird-net"}>
             <span>View all</span>
           </Link>
         </div>
         <div className="product-card-group">
           {ProductData.products
-          .filter((item) => item.categorySlug == 'silver')
-          .slice(0, 5).map((product) => {
-            return (
-              <div class="product-card">
-                <img src={product.imageLink} alt="Card 1" />
-                <div class="card-content">
-                  {/* <div className="product-card-category">{product.category}</di v> */}
-                  <div className="product-card-item">{product.productName}</div>
-                  <div className="product-card-price">
-                    Rs. {product.price}.00
+            .filter((item) => item.categorySlug == "bird-net")
+            .slice(0, 5)
+            .map((product) => {
+              return (
+                <div class="product-card">
+                  <img src={product.imageLink} alt="Card 1" />
+                  <div class="card-content">
+                    {/* <div className="product-card-category">{product.category}</di v> */}
+                    <div className="product-card-item">
+                      {product.productName}
+                    </div>
+                    <div className="product-card-price">
+                      Rs. {product.price}.00
+                    </div>
+                    <a
+                      href={
+                        "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
+                        product.productName +
+                        "*"
+                      }
+                      target="_blank"
+                    >
+                      {" "}
+                      <div className="product-card-button">Buy Now</div>
+                    </a>
                   </div>
-                  <a
-                    href={
-                      "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
-                      product.productName +
-                      "*"
-                    }
-                    target="_blank"
-                  >
-                    {" "}
-                    <div className="product-card-button">Buy Now</div>
-                  </a>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+        </div>
+
+        <div style={{}} className="category-header category-header-3">
+          <h2 style={{ fontWeight: 500 }}>Our Bird Spike collection</h2>
+          <Link to={"/product/bird-spike"}>
+            <span>View all</span>
+          </Link>
+        </div>
+        <div className="product-card-group">
+          {ProductData.products
+            .filter((item) => item.categorySlug == "bird-spike")
+            .slice(0, 5)
+            .map((product) => {
+              return (
+                <div class="product-card">
+                  <img src={product.imageLink} alt="Card 1" />
+                  <div class="card-content">
+                    {/* <div className="product-card-category">{product.category}</di v> */}
+                    <div className="product-card-item">
+                      {product.productName}
+                    </div>
+                    <div className="product-card-price">
+                      Rs. {product.price}.00
+                    </div>
+                    <a
+                      href={
+                        "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
+                        product.productName +
+                        "*"
+                      }
+                      target="_blank"
+                    >
+                      {" "}
+                      <div className="product-card-button">Buy Now</div>
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
+        </div>
+
+        <div style={{}} className="category-header category-header-3">
+          <h2 style={{ fontWeight: 500 }}>Our Invisible Grill collection</h2>
+          <Link to={"/product/invisible-grill"}>
+            <span>View all</span>
+          </Link>
+        </div>
+        <div className="product-card-group">
+          {ProductData.products
+            .filter((item) => item.categorySlug == "invisible-grill")
+            .slice(0, 5)
+            .map((product) => {
+              return (
+                <div class="product-card">
+                  <img src={product.imageLink} alt="Card 1" />
+                  <div class="card-content">
+                    {/* <div className="product-card-category">{product.category}</di v> */}
+                    <div className="product-card-item">
+                      {product.productName}
+                    </div>
+                    <div className="product-card-price">
+                      Rs. {product.price}.00
+                    </div>
+                    <a
+                      href={
+                        "https://wa.me/919426476994?text=Hello%2C%20Sending%20message%20from%20your%20site%2C%20and%20i%20am%20intrested%20in%20your%20*" +
+                        product.productName +
+                        "*"
+                      }
+                      target="_blank"
+                    >
+                      {" "}
+                      <div className="product-card-button">Buy Now</div>
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
         </div>
       </div>
     </>
